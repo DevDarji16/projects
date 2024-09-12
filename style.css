@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding:0px 30px;
+   
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+#nav1{
+    
+    display: flex;
+    gap: 2px;
+}
+#nav2{
+   
+    text-transform: uppercase;
+}
+#menu{
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 15px;
+    
+    font-weight: 500;
+}
+.ri-menu-line{
+   
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+#nav button{
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 4px 10px;
+    border:1.5px solid black;
+    font-size: 15px;
+    background-color: #fff;
+}
+#button{
+    background-color: orangered !important;
+    color: white;
+    border:none !important;
+}
+#main>h1{
+    font-size: 160px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    text-align: center;
+}
+img{
+    height:500px;
+    width: 350px;
+    object-fit:cover;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm{
+    position: absolute; 
+    bottom:5%;
+    left:5%;
+    
+}
+#btm2{
+    display: flex;
+    position: absolute; 
+    bottom:5%;
+    right:5%;
+    gap:5px
+    
+}
